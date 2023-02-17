@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int i = 1;
+	int i = 10;
 
-	while (i < 27)
+	while (i < 36)
 	{
 		putchar(i);
 		i++;
