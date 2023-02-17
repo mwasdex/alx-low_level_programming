@@ -12,7 +12,7 @@ int main(void)
 {
 	int i = 1;
 
-	while (i <27)
+	while (i < 27)
 	{
 		putchar(i);
 		i++;
