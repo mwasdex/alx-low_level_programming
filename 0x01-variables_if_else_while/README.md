@@ -6,3 +6,5 @@ This program will assign a random number to the variable n each time it is execu
 Write a program that prints the alphabet in lowercase, followed by a new line.
 # 3-print_alphabets.c
 Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+# 4-print_alphabt.c
+Write a program that prints the alphabet in lowercase, followed by a new line.
