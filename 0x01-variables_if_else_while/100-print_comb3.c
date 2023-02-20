@@ -1,12 +1,12 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
-   * main - prints all possible different combinations of two digits
-    *
-     * Description: prints all possible different combinations of two digits
-      *
-       * Return: Always 0 (Success)
-        */
+ * main - prints all possible different combinations of two digits
+ *
+ * Description: prints all possible different combinations of two digits
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -19,19 +19,19 @@ int main(void)
 	{
 		j = i + 1;
 		while (j < 58)
-			{
-				putchar(i);
-				putchar(j);
+		{
+			putchar(i);
+			putchar(j);
 
-				if (i < 56 || j < 57)
-				{
+			if (i < 56 || j < 57)
+			{
 				putchar(44);
 				putchar(32);
-				}
-				j++;
 			}
+			j++;
+		}
 
-			i++;
+		i++;
 	}
 
 	putchar(10);
