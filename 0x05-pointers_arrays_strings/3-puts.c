@@ -1,7 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include "main.h"
-
 /**
 * _puts - print string reverse
 * @str: pointer to string
