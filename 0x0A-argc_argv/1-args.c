@@ -4,7 +4,6 @@
 /**
  * Main - Print number of arguments
  * argc: Length of arguments
- * argv: Arguments
  * Return 0: Success
  */
 
