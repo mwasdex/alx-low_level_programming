@@ -19,8 +19,12 @@ int main(int argc, char *argv[])
         return (1);
     }
     else
+    {
         for (i = 1; i < argc; i++)
-            a = a * atoi(argv[i]);
+        {
+        a = a * atoi(argv[i]);
         printf("%d\n", a);
-        return (0)
+        }
+    }
+        return (0);
 }
