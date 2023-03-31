@@ -9,3 +9,6 @@ Write a function that adds a new node at the beginning of a list_t list.
 
 3. Add node at the end
 Write a function that adds a new node at the end of a list_t list.
+
+4. Free list
+Write a function that frees a list_t list.
