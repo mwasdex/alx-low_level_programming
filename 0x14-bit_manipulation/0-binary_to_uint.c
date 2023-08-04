@@ -9,24 +9,18 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int i;
-	unsigned int dec_val = 0;
+	unsigned int value = 0;
 
 	if (b == NULL)
 		return (0);
-
-	while (b[len])
-		len++;
-
-	while (len)
+	while (*b != '\0')
 	{
-		if (b[len - 1] != '0' && b[len -1] != '1')
+		value = value << 1;
+		if (*b != '1' && *b != '0')
 			return (0);
-
-		if (b[len - 1] == '1')
-			result +=base;
-		base *= 2;
-		len--;
+		else if (*b == '1')
+			value = value | 1;
+		b++;
 	}
-	return (result);
+	return (value);
 }
